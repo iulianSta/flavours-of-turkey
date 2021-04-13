@@ -1,8 +1,10 @@
+/* All elements style */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* Info/ Review area style */
 .info-area {
   width: 50rem;
   height: 40rem;
@@ -13,4 +15,26 @@
 .info-img {
   width: 50rem;
   height: 40rem;
+}
+/* Product area style */
+.product-area img {
+  width: 20rem;
+  height: 20rem;
+  position: relative;
+  left: 7vw;
+  border-radius: 100%;
+}
+.first-button {
+  position: relative;
+  top: 10vh;
+}
+.third-button {
+  position: relative;
+  top: 2vh;
+}
+.first-button,
+.second-button,
+.third-button {
+  position: relative;
+  left: 10vw;
 }

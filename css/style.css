@@ -38,3 +38,15 @@
   position: relative;
   left: 10vw;
 }
+/* Footer style */
+footer {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+}
+/* Blog area and footer style */
+.blog,
+footer {
+  position: relative;
+  left: 5vw;
+}
